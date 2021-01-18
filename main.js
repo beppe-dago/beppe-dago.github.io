@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\giuse\Documents\FocusGraph\FocusMeter\FocusMeter\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Users\gidagost\Documents\Angular\angular-projects\FocusMeter\FocusMeter\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -578,7 +578,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ReportsTableComponent_tr_13_Template(rf, ctx) { if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("reportSelected", function ReportsTableComponent_tr_13_Template_tr_reportSelected_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.onReportSelected($event); })("showReportClick", function ReportsTableComponent_tr_13_Template_tr_showReportClick_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.onShowReport($event); })("exportReportClick", function ReportsTableComponent_tr_13_Template_tr_exportReportClick_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.onExportReport($event); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -605,34 +605,34 @@ class ReportsTableComponent {
     }
 }
 ReportsTableComponent.ɵfac = function ReportsTableComponent_Factory(t) { return new (t || ReportsTableComponent)(); };
-ReportsTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportsTableComponent, selectors: [["app-reports-table"]], inputs: { reports: "reports" }, outputs: { reportSelected: "reportSelected", showReport: "showReport", exportReport: "exportReport" }, decls: 14, vars: 1, consts: [[1, "tableFixHead"], [1, "table", "table-striped", "table"], [1, "thead-dark"], ["app-report-row", "", 3, "report-data", "reportSelected", "showReportClick", "exportReportClick", 4, "ngFor", "ngForOf"], ["app-report-row", "", 3, "report-data", "reportSelected", "showReportClick", "exportReportClick"]], template: function ReportsTableComponent_Template(rf, ctx) { if (rf & 1) {
+ReportsTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportsTableComponent, selectors: [["app-reports-table"]], inputs: { reports: "reports" }, outputs: { reportSelected: "reportSelected", showReport: "showReport", exportReport: "exportReport" }, decls: 14, vars: 1, consts: [[1, "tableFixHead", "responsiveText"], [1, "table", "table-striped", "table"], [1, "thead-dark"], [1, "p-1"], ["app-report-row", "", 3, "report-data", "reportSelected", "showReportClick", "exportReportClick", 4, "ngFor", "ngForOf"], ["app-report-row", "", 3, "report-data", "reportSelected", "showReportClick", "exportReportClick"]], template: function ReportsTableComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "table", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "thead", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "tr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Code ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " Day ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Focus average ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Focus avg. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Actions ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "tbody");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, ReportsTableComponent_tr_13_Template, 1, 1, "tr", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, ReportsTableComponent_tr_13_Template, 1, 1, "tr", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.reports);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _report_row_report_row_component__WEBPACK_IMPORTED_MODULE_2__["ReportRowComponent"]], styles: [".tableFixHead[_ngcontent-%COMP%]          { overflow-y: auto; height: 300px;  overflow-x: hidden;}\r\n.tableFixHead[_ngcontent-%COMP%]   thead[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] { position: sticky; top: 0; }\r\n\r\ntable[_ngcontent-%COMP%]  { border-collapse: collapse; width: 100%; }\r\nth[_ngcontent-%COMP%], td[_ngcontent-%COMP%] { padding: 8px 16px; }\r\nth[_ngcontent-%COMP%]     { background:#eee; }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlcG9ydHMtdGFibGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx5QkFBeUIsZ0JBQWdCLEVBQUUsYUFBYSxHQUFHLGtCQUFrQixDQUFDO0FBQzlFLHlCQUF5QixnQkFBZ0IsRUFBRSxNQUFNLEVBQUU7QUFFbkQscUNBQXFDO0FBQ3JDLFNBQVMseUJBQXlCLEVBQUUsV0FBVyxFQUFFO0FBQ2pELFNBQVMsaUJBQWlCLEVBQUU7QUFDNUIsU0FBUyxlQUFlLEVBQUUiLCJmaWxlIjoicmVwb3J0cy10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRhYmxlRml4SGVhZCAgICAgICAgICB7IG92ZXJmbG93LXk6IGF1dG87IGhlaWdodDogMzAwcHg7ICBvdmVyZmxvdy14OiBoaWRkZW47fVxyXG4udGFibGVGaXhIZWFkIHRoZWFkIHRoIHsgcG9zaXRpb246IHN0aWNreTsgdG9wOiAwOyB9XHJcblxyXG4vKiBKdXN0IGNvbW1vbiB0YWJsZSBzdHVmZi4gUmVhbGx5LiAqL1xyXG50YWJsZSAgeyBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyB3aWR0aDogMTAwJTsgfVxyXG50aCwgdGQgeyBwYWRkaW5nOiA4cHggMTZweDsgfVxyXG50aCAgICAgeyBiYWNrZ3JvdW5kOiNlZWU7IH1cclxuIl19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _report_row_report_row_component__WEBPACK_IMPORTED_MODULE_2__["ReportRowComponent"]], styles: [".tableFixHead[_ngcontent-%COMP%]          { overflow-y: auto; height: 300px;  }\r\n.tableFixHead[_ngcontent-%COMP%]   thead[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] { position: sticky; top: 0; }\r\n\r\ntable[_ngcontent-%COMP%]  { border-collapse: collapse; width: 100%; }\r\nth[_ngcontent-%COMP%], td[_ngcontent-%COMP%] { padding: 8px 16px; }\r\nth[_ngcontent-%COMP%]     { background:#eee; }\r\n.responsiveText[_ngcontent-%COMP%]{\r\n  font-size:2vw;\r\n}\r\n@media screen and (max-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:3vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlcG9ydHMtdGFibGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx5QkFBeUIsZ0JBQWdCLEVBQUUsYUFBYSxHQUFHO0FBQzNELHlCQUF5QixnQkFBZ0IsRUFBRSxNQUFNLEVBQUU7QUFFbkQscUNBQXFDO0FBQ3JDLFNBQVMseUJBQXlCLEVBQUUsV0FBVyxFQUFFO0FBQ2pELFNBQVMsaUJBQWlCLEVBQUU7QUFDNUIsU0FBUyxlQUFlLEVBQUU7QUFFMUI7RUFDRSxhQUFhO0FBQ2Y7QUFFQTtFQUNFO0lBQ0UsYUFBYTtFQUNmO0FBQ0YiLCJmaWxlIjoicmVwb3J0cy10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRhYmxlRml4SGVhZCAgICAgICAgICB7IG92ZXJmbG93LXk6IGF1dG87IGhlaWdodDogMzAwcHg7ICB9XHJcbi50YWJsZUZpeEhlYWQgdGhlYWQgdGggeyBwb3NpdGlvbjogc3RpY2t5OyB0b3A6IDA7IH1cclxuXHJcbi8qIEp1c3QgY29tbW9uIHRhYmxlIHN0dWZmLiBSZWFsbHkuICovXHJcbnRhYmxlICB7IGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7IHdpZHRoOiAxMDAlOyB9XHJcbnRoLCB0ZCB7IHBhZGRpbmc6IDhweCAxNnB4OyB9XHJcbnRoICAgICB7IGJhY2tncm91bmQ6I2VlZTsgfVxyXG5cclxuLnJlc3BvbnNpdmVUZXh0e1xyXG4gIGZvbnQtc2l6ZToydnc7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6NTc1cHgpIHtcclxuICAucmVzcG9uc2l2ZVRleHR7XHJcbiAgICBmb250LXNpemU6M3Z3O1xyXG4gIH1cclxufVxyXG5cclxuXHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ReportsTableComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -701,6 +701,7 @@ class FocusGraphv2Component {
         this.evaluationAdded = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.message = "Please add an evaluation or load a Report!";
         this.options = {
+            chartArea: { left: 10, right: 10, top: 10, bottom: 50 },
             hAxis: { format: 'HH:mm:ss' },
             vAxis: { viewWindow: {
                     max: 10,
@@ -710,7 +711,7 @@ class FocusGraphv2Component {
             pointSize: 5,
             pointShape: 'circle',
             legend: { position: 'bottom' },
-            height: 400,
+            height: screen.height / 2.5,
             explorer: {
                 actions: ['dragToZoom', 'rightClickToReset'],
                 axis: 'horizontal',
@@ -761,6 +762,13 @@ class FocusGraphv2Component {
         }
     }
     ngOnInit() {
+        let func = () => {
+            this.drawDottedFocusChart();
+        };
+        window.addEventListener('resize', func, false);
+    }
+    refreshGraph() {
+        console.log(this.data);
     }
     initChart() {
         this.loadedPromise = google.charts.load("current", { packages: ['corechart'] });
@@ -784,11 +792,7 @@ class FocusGraphv2Component {
     }
     //https://developers.google.com/chart/interactive/docs/gallery/linechart
     drawDottedFocusChart() {
-        if (this.data === undefined) {
-            this.data = google.visualization.arrayToDataTable([['Time', 'Focus'],
-                [new Date(), 1]
-            ]);
-        }
+        console.log("draw chart");
         var containerElement = jquery__WEBPACK_IMPORTED_MODULE_1__('#chartContainer')[0];
         this.chart = new google.visualization.LineChart(containerElement);
         this.chart.draw(this.data, this.options);
@@ -796,7 +800,7 @@ class FocusGraphv2Component {
     }
 }
 FocusGraphv2Component.ɵfac = function FocusGraphv2Component_Factory(t) { return new (t || FocusGraphv2Component)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_ev_assembler_service__WEBPACK_IMPORTED_MODULE_2__["EvAssemblerService"])); };
-FocusGraphv2Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FocusGraphv2Component, selectors: [["app-focus-graphv2"]], inputs: { report: "report" }, outputs: { graphLoadingError: "graphLoadingError", graphDrew: "graphDrew", graphRefreshed: "graphRefreshed", graphChanged: "graphChanged", evaluationAdded: "evaluationAdded" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 9, vars: 3, consts: [[1, "container"], ["id", "graph-title", 1, "row", "justify-content-center", "nextZlevel"], [4, "ngIf", "ngIfElse"], ["elseBlock", ""], [1, "row"], ["id", "chartContainer", 1, "row", "graphRelPos"], [1, "row", "justify-content-center"]], template: function FocusGraphv2Component_Template(rf, ctx) { if (rf & 1) {
+FocusGraphv2Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FocusGraphv2Component, selectors: [["app-focus-graphv2"]], inputs: { report: "report" }, outputs: { graphLoadingError: "graphLoadingError", graphDrew: "graphDrew", graphRefreshed: "graphRefreshed", graphChanged: "graphChanged", evaluationAdded: "evaluationAdded" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 9, vars: 3, consts: [[1, "container"], ["id", "graph-title", 1, "row", "justify-content-center"], [4, "ngIf", "ngIfElse"], ["elseBlock", ""], [1, "row"], ["id", "chartContainer", 1, "row"], [1, "row", "justify-content-center"]], template: function FocusGraphv2Component_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, FocusGraphv2Component_h4_2_Template, 2, 1, "h4", 2);
@@ -814,7 +818,7 @@ FocusGraphv2Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.report != null)("ngIfElse", _r1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.message, " ");
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: [".debug[_ngcontent-%COMP%] {\r\n  border: solid 1px black;\r\n}\r\n\r\n.graphRelPos[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  top: -73px;\r\n}\r\n\r\n.nextZlevel[_ngcontent-%COMP%]{\r\n  z-index: +3;\r\n  position: relative;\r\n}\r\n\r\n.backTheGraph[_ngcontent-%COMP%]{\r\n  z-index: -4;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvY3VzLWdyYXBodjIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsV0FBVztBQUNiIiwiZmlsZSI6ImZvY3VzLWdyYXBodjIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5kZWJ1ZyB7XHJcbiAgYm9yZGVyOiBzb2xpZCAxcHggYmxhY2s7XHJcbn1cclxuXHJcbi5ncmFwaFJlbFBvcyB7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIHRvcDogLTczcHg7XHJcbn1cclxuXHJcbi5uZXh0WmxldmVse1xyXG4gIHotaW5kZXg6ICszO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmJhY2tUaGVHcmFwaHtcclxuICB6LWluZGV4OiAtNDtcclxufVxyXG4iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: [".debug[_ngcontent-%COMP%] {\r\n  border: solid 1px black;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvY3VzLWdyYXBodjIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHVCQUF1QjtBQUN6QiIsImZpbGUiOiJmb2N1cy1ncmFwaHYyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZGVidWcge1xyXG4gIGJvcmRlcjogc29saWQgMXB4IGJsYWNrO1xyXG59XHJcblxyXG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FocusGraphv2Component, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1281,7 +1285,7 @@ class ReportIpl {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EvCommunicationService", function() { return EvCommunicationService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "qCKp");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "MyqM");
 
 
 
@@ -1443,7 +1447,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reports_detail_reports_detail_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reports-detail/reports-detail.component */ "sHVl");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var angular_google_charts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular-google-charts */ "icpI");
+/* harmony import */ var angular_google_charts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular-google-charts */ "BbL1");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "Sy1n");
 /* harmony import */ var _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./nav-bar/nav-bar.component */ "5hVl");
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header/header.component */ "fECr");
@@ -1905,6 +1909,29 @@ EvDataService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInj
 
 /***/ }),
 
+/***/ "q4w8":
+/*!*********************************************************************************!*\
+  !*** ../node_modules/@angular/core/__ivy_ngcc__/fesm2015 lazy namespace object ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "q4w8";
+
+/***/ }),
+
 /***/ "sHVl":
 /*!************************************************************!*\
   !*** ./src/app/reports-detail/reports-detail.component.ts ***!
@@ -1957,7 +1984,7 @@ class ReportsDetailComponent {
     }
 }
 ReportsDetailComponent.ɵfac = function ReportsDetailComponent_Factory(t) { return new (t || ReportsDetailComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_ev_data_service__WEBPACK_IMPORTED_MODULE_1__["EvDataService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-ReportsDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportsDetailComponent, selectors: [["app-reports-detail"]], decls: 9, vars: 2, consts: [[1, "border-bottom", "container"], [1, "row", "justify-content-center"], [2, "z-index", "+6"], [1, "row"], [1, "col"], [3, "reports", "reportSelected", "showReport", "exportReport"], [3, "report"]], template: function ReportsDetailComponent_Template(rf, ctx) { if (rf & 1) {
+ReportsDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportsDetailComponent, selectors: [["app-reports-detail"]], decls: 9, vars: 2, consts: [[1, "border-bottom", "container-fluid", "p-2"], [1, "row", "justify-content-center"], [2, "z-index", "+6"], [1, "row"], [1, "col-sm-7"], [3, "reports", "reportSelected", "showReport", "exportReport"], [1, "col-sm-5"], [3, "report"]], template: function ReportsDetailComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h3", 2);
@@ -1970,8 +1997,8 @@ ReportsDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("reportSelected", function ReportsDetailComponent_Template_app_reports_table_reportSelected_6_listener($event) { return ctx.reportSelected($event); })("showReport", function ReportsDetailComponent_Template_app_reports_table_showReport_6_listener($event) { return ctx.showReport($event); })("exportReport", function ReportsDetailComponent_Template_app_reports_table_exportReport_6_listener($event) { return ctx.exportReport($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-focus-graphv2", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-focus-graphv2", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2146,14 +2173,14 @@ class MainContainerComponent {
     }
 }
 MainContainerComponent.ɵfac = function MainContainerComponent_Factory(t) { return new (t || MainContainerComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_ev_data_service__WEBPACK_IMPORTED_MODULE_1__["EvDataService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_ev_communication_service__WEBPACK_IMPORTED_MODULE_2__["EvCommunicationService"])); };
-MainContainerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MainContainerComponent, selectors: [["app-main-container"]], decls: 6, vars: 2, consts: [[1, "border-bottom", "container"], [1, "row"], [1, "col"], [3, "report"], [3, "report", "evSubmitted"]], template: function MainContainerComponent_Template(rf, ctx) { if (rf & 1) {
+MainContainerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MainContainerComponent, selectors: [["app-main-container"]], decls: 6, vars: 2, consts: [[1, "border-bottom", "container-fluid", "p-2"], [1, "row", "no-gutters"], [1, "col-sm-8"], [3, "report"], [1, "col-sm-4"], [3, "report", "evSubmitted"]], template: function MainContainerComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-focus-graphv2", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "app-focus-form", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "app-focus-form", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("evSubmitted", function MainContainerComponent_Template_app_focus_form_evSubmitted_5_listener($event) { return ctx.onEvaluationAdded($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2323,48 +2350,50 @@ class ReportRowComponent {
     }
 }
 ReportRowComponent.ɵfac = function ReportRowComponent_Factory(t) { return new (t || ReportRowComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-ReportRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportRowComponent, selectors: [["tr", "app-report-row", ""]], inputs: { report: ["report-data", "report"] }, outputs: { reportSelected: "reportSelected", showReportClick: "showReportClick", exportReportClick: "exportReportClick" }, attrs: _c0, decls: 16, vars: 11, consts: [[1, "btn", "btn-outline-dark", 3, "click"], [1, "row"], [1, "col", 2, "min-width", "max-content"], [1, "show-graph", "btn-primary", "btn-sm", 3, "click"], [3, "icon"], [1, "show-graph", "btn-primary", "btn-sm", "ml-1"], [3, "icon", "click"]], template: function ReportRowComponent_Template(rf, ctx) { if (rf & 1) {
+ReportRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportRowComponent, selectors: [["tr", "app-report-row", ""]], inputs: { report: ["report-data", "report"] }, outputs: { reportSelected: "reportSelected", showReportClick: "showReportClick", exportReportClick: "exportReportClick" }, attrs: _c0, decls: 17, vars: 11, consts: [[1, "btn", "btn-outline-dark", "btn-sm", 3, "click"], [1, "m-0"], [1, "row"], [1, "col", 2, "min-width", "max-content"], [1, "show-graph", "btn-primary", "btn-sm", 3, "click"], [1, "fas", "fa-xs", 3, "icon"], [1, "show-graph", "btn-primary", "btn-sm", "ml-1"], [1, "fas", "fa-xs", 3, "icon", "click"]], template: function ReportRowComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ReportRowComponent_Template_a_click_1_listener() { return ctx.onShowDetail(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](5, "date");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](6, "date");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](9, "number");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "td");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "button", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ReportRowComponent_Template_button_click_12_listener() { return ctx.onShowGraphClicked(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "fa-icon", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ReportRowComponent_Template_button_click_13_listener() { return ctx.onShowGraphClicked(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "fa-icon", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "button", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "fa-icon", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ReportRowComponent_Template_fa_icon_click_15_listener() { return ctx.onExportReportClicked(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "fa-icon", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ReportRowComponent_Template_fa_icon_click_16_listener() { return ctx.onExportReportClicked(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.report.code);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](5, 5, ctx.report.day, "dd/MM/yyyy"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](6, 5, ctx.report.day, "dd/MM/yyyy"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](8, 8, ctx.reportAverage, ".2-2"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](9, 8, ctx.reportAverage, ".2-2"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.faChartLine);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.faFileDownload);
-    } }, directives: [_fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FaIconComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["DecimalPipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZXBvcnQtcm93LmNvbXBvbmVudC5jc3MifQ== */"] });
+    } }, directives: [_fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FaIconComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["DecimalPipe"]], styles: ["p[_ngcontent-%COMP%]{\r\n  font-size: 2vw;\r\n}\r\n\r\n@media screen and (max-width:575px) {\r\n  p[_ngcontent-%COMP%]{\r\n    font-size: 3vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlcG9ydC1yb3cuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRTtJQUNFLGNBQWM7RUFDaEI7QUFDRiIsImZpbGUiOiJyZXBvcnQtcm93LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwe1xyXG4gIGZvbnQtc2l6ZTogMnZ3O1xyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOjU3NXB4KSB7XHJcbiAgcHtcclxuICAgIGZvbnQtc2l6ZTogM3Z3O1xyXG4gIH1cclxufVxyXG5cclxuXHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ReportRowComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2461,7 +2490,7 @@ class FocusFormComponent {
     }
 }
 FocusFormComponent.ɵfac = function FocusFormComponent_Factory(t) { return new (t || FocusFormComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_ev_data_service__WEBPACK_IMPORTED_MODULE_2__["EvDataService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_security_services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"])); };
-FocusFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FocusFormComponent, selectors: [["app-focus-form"]], inputs: { todayReport: ["report", "todayReport"] }, outputs: { evSubmitted: "evSubmitted" }, decls: 23, vars: 0, consts: [[1, "container"], [1, "row", "mb-4"], ["cass", ""], [1, "row"], ["id", "focus-form", "action", "#", 1, ""], [1, "form-row"], [1, "form-group", "col-9"], ["type", "range", "min", "1", "max", "10", "step", "1", "id", "focus-form-range", 1, "form-control-range"], ["id", "focus-form-ev-help", 1, "form-text", "text-muted"], [1, "form-group", "col-3"], ["type", "number", "id", "focus-form-value", 1, "form-control"], [1, "form-group", "col-12"], [1, "input-group", "mb-2"], [1, "input-group-prepend"], [1, "input-group-text"], ["type", "text", "id", "focus-form-notes", "placeholder", "About my evaluation...", 1, "form-control"], [1, "row", "justify-content-end", "mr-1"], ["type", "submit", "id", "focus-form-submit", 1, "btn", "btn-primary", "form-control", "w-25"]], template: function FocusFormComponent_Template(rf, ctx) { if (rf & 1) {
+FocusFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FocusFormComponent, selectors: [["app-focus-form"]], inputs: { todayReport: ["report", "todayReport"] }, outputs: { evSubmitted: "evSubmitted" }, decls: 24, vars: 0, consts: [[1, "container"], [1, "row", "mb-4"], ["cass", ""], [1, "row"], ["id", "focus-form", "action", "#", 1, ""], [1, "form-row"], [1, "form-group", "col-md-9"], ["type", "range", "min", "1", "max", "10", "step", "1", "id", "focus-form-range", 1, "form-control-range"], ["id", "focus-form-ev-help", 1, "form-text", "text-muted"], [1, "form-group", "col-md-3", "col-4"], ["type", "number", "id", "focus-form-value", 1, "form-control"], [1, "form-group", "col-12"], [1, "input-group", "mb-2"], [1, "input-group-prepend"], [1, "input-group-text"], ["type", "text", "id", "focus-form-notes", "placeholder", "About my evaluation...", 1, "form-control"], [1, "row", "justify-content-end", "mr-1"], [1, "col-lg-4", "col-md-5"], ["type", "submit", "id", "focus-form-submit", 1, "btn", "btn-primary", "form-control"]], template: function FocusFormComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h3", 2);
@@ -2494,8 +2523,10 @@ FocusFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "button", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Submit");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "button", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Submit");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

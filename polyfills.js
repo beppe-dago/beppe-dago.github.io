@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\giuse\Documents\FocusGraph\FocusMeter\FocusMeter\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\gidagost\Documents\Angular\angular-projects\FocusMeter\FocusMeter\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
