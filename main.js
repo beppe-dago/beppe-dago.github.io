@@ -632,7 +632,7 @@ ReportsTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.reports);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _report_row_report_row_component__WEBPACK_IMPORTED_MODULE_2__["ReportRowComponent"]], styles: [".tableFixHead[_ngcontent-%COMP%]          { overflow-y: auto; height: 300px;  }\r\n.tableFixHead[_ngcontent-%COMP%]   thead[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] { position: sticky; top: 0; }\r\n\r\ntable[_ngcontent-%COMP%]  { border-collapse: collapse; width: 100%; }\r\nth[_ngcontent-%COMP%], td[_ngcontent-%COMP%] { padding: 8px 16px; }\r\nth[_ngcontent-%COMP%]     { background:#eee; }\r\n.responsiveText[_ngcontent-%COMP%]{\r\n  font-size:2vw;\r\n}\r\n@media screen and (max-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:3vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlcG9ydHMtdGFibGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx5QkFBeUIsZ0JBQWdCLEVBQUUsYUFBYSxHQUFHO0FBQzNELHlCQUF5QixnQkFBZ0IsRUFBRSxNQUFNLEVBQUU7QUFFbkQscUNBQXFDO0FBQ3JDLFNBQVMseUJBQXlCLEVBQUUsV0FBVyxFQUFFO0FBQ2pELFNBQVMsaUJBQWlCLEVBQUU7QUFDNUIsU0FBUyxlQUFlLEVBQUU7QUFFMUI7RUFDRSxhQUFhO0FBQ2Y7QUFFQTtFQUNFO0lBQ0UsYUFBYTtFQUNmO0FBQ0YiLCJmaWxlIjoicmVwb3J0cy10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRhYmxlRml4SGVhZCAgICAgICAgICB7IG92ZXJmbG93LXk6IGF1dG87IGhlaWdodDogMzAwcHg7ICB9XHJcbi50YWJsZUZpeEhlYWQgdGhlYWQgdGggeyBwb3NpdGlvbjogc3RpY2t5OyB0b3A6IDA7IH1cclxuXHJcbi8qIEp1c3QgY29tbW9uIHRhYmxlIHN0dWZmLiBSZWFsbHkuICovXHJcbnRhYmxlICB7IGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7IHdpZHRoOiAxMDAlOyB9XHJcbnRoLCB0ZCB7IHBhZGRpbmc6IDhweCAxNnB4OyB9XHJcbnRoICAgICB7IGJhY2tncm91bmQ6I2VlZTsgfVxyXG5cclxuLnJlc3BvbnNpdmVUZXh0e1xyXG4gIGZvbnQtc2l6ZToydnc7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6NTc1cHgpIHtcclxuICAucmVzcG9uc2l2ZVRleHR7XHJcbiAgICBmb250LXNpemU6M3Z3O1xyXG4gIH1cclxufVxyXG5cclxuXHJcbiJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _report_row_report_row_component__WEBPACK_IMPORTED_MODULE_2__["ReportRowComponent"]], styles: [".tableFixHead[_ngcontent-%COMP%]          { overflow-y: auto; height: 300px;  }\r\n.tableFixHead[_ngcontent-%COMP%]   thead[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] { position: sticky; top: 0; }\r\n\r\ntable[_ngcontent-%COMP%]  { border-collapse: collapse; width: 100%; }\r\nth[_ngcontent-%COMP%], td[_ngcontent-%COMP%] { padding: 8px 16px; }\r\nth[_ngcontent-%COMP%]     { background:#eee; }\r\n.responsiveText[_ngcontent-%COMP%]{\r\n  font-size:15px;\r\n}\r\n@media screen and (max-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:3vw;\r\n  }\r\n}\r\n@media screen and (max-width:800px) and (min-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:2vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlcG9ydHMtdGFibGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx5QkFBeUIsZ0JBQWdCLEVBQUUsYUFBYSxHQUFHO0FBQzNELHlCQUF5QixnQkFBZ0IsRUFBRSxNQUFNLEVBQUU7QUFFbkQscUNBQXFDO0FBQ3JDLFNBQVMseUJBQXlCLEVBQUUsV0FBVyxFQUFFO0FBQ2pELFNBQVMsaUJBQWlCLEVBQUU7QUFDNUIsU0FBUyxlQUFlLEVBQUU7QUFFMUI7RUFDRSxjQUFjO0FBQ2hCO0FBRUE7RUFDRTtJQUNFLGFBQWE7RUFDZjtBQUNGO0FBRUE7RUFDRTtJQUNFLGFBQWE7RUFDZjtBQUNGIiwiZmlsZSI6InJlcG9ydHMtdGFibGUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi50YWJsZUZpeEhlYWQgICAgICAgICAgeyBvdmVyZmxvdy15OiBhdXRvOyBoZWlnaHQ6IDMwMHB4OyAgfVxyXG4udGFibGVGaXhIZWFkIHRoZWFkIHRoIHsgcG9zaXRpb246IHN0aWNreTsgdG9wOiAwOyB9XHJcblxyXG4vKiBKdXN0IGNvbW1vbiB0YWJsZSBzdHVmZi4gUmVhbGx5LiAqL1xyXG50YWJsZSAgeyBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyB3aWR0aDogMTAwJTsgfVxyXG50aCwgdGQgeyBwYWRkaW5nOiA4cHggMTZweDsgfVxyXG50aCAgICAgeyBiYWNrZ3JvdW5kOiNlZWU7IH1cclxuXHJcbi5yZXNwb25zaXZlVGV4dHtcclxuICBmb250LXNpemU6MTVweDtcclxufVxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDo1NzVweCkge1xyXG4gIC5yZXNwb25zaXZlVGV4dHtcclxuICAgIGZvbnQtc2l6ZTozdnc7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOjgwMHB4KSBhbmQgKG1pbi13aWR0aDo1NzVweCkge1xyXG4gIC5yZXNwb25zaXZlVGV4dHtcclxuICAgIGZvbnQtc2l6ZToydnc7XHJcbiAgfVxyXG59XHJcblxyXG5cclxuXHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ReportsTableComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -699,6 +699,9 @@ class FocusGraphv2Component {
         this.graphRefreshed = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.graphChanged = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.evaluationAdded = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.func = () => {
+            this.drawDottedFocusChart();
+        };
         this.message = "Please add an evaluation or load a Report!";
         this.options = {
             chartArea: { left: 10, right: 10, top: 10, bottom: 50 },
@@ -721,6 +724,9 @@ class FocusGraphv2Component {
             }
         };
         this.graphTitle = "No report";
+    }
+    ngOnDestroy() {
+        window.removeEventListener('resize', this.func, false);
     }
     ngOnChanges(changes) {
         for (const propName in changes) {
@@ -762,10 +768,7 @@ class FocusGraphv2Component {
         }
     }
     ngOnInit() {
-        let func = () => {
-            this.drawDottedFocusChart();
-        };
-        window.addEventListener('resize', func, false);
+        window.addEventListener('resize', this.func, false);
     }
     refreshGraph() {
         console.log(this.data);
@@ -961,7 +964,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function EvaluationsTableComponent_tr_15_Template(rf, ctx) { if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("rowSelected", function EvaluationsTableComponent_tr_15_Template_tr_rowSelected_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.onEvaluationSelected($event); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -990,37 +993,37 @@ class EvaluationsTableComponent {
     }
 }
 EvaluationsTableComponent.ɵfac = function EvaluationsTableComponent_Factory(t) { return new (t || EvaluationsTableComponent)(); };
-EvaluationsTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EvaluationsTableComponent, selectors: [["app-evaluations-table"]], inputs: { report: "report" }, outputs: { evalSelected: "evalSelected" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 16, vars: 1, consts: [[1, "tableFixHead"], ["id", "table-evaluations", 1, "table", "table-striped"], [1, "thead-dark"], ["app-evaluation-row", "", 3, "evaluation", "rowSelected", 4, "ngFor", "ngForOf"], ["app-evaluation-row", "", 3, "evaluation", "rowSelected"]], template: function EvaluationsTableComponent_Template(rf, ctx) { if (rf & 1) {
+EvaluationsTableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EvaluationsTableComponent, selectors: [["app-evaluations-table"]], inputs: { report: "report" }, outputs: { evalSelected: "evalSelected" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 16, vars: 1, consts: [[1, "tableFixHead", "responsiveText"], ["id", "table-evaluations", 1, "table", "table-striped"], [1, "thead-dark"], [1, "p-1"], ["app-evaluation-row", "", 3, "evaluation", "rowSelected", 4, "ngFor", "ngForOf"], ["app-evaluation-row", "", 3, "evaluation", "rowSelected"]], template: function EvaluationsTableComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "table", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "thead", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "tr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Code");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Time");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Value");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Notes");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "th", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Actions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "tbody");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, EvaluationsTableComponent_tr_15_Template, 1, 1, "tr", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, EvaluationsTableComponent_tr_15_Template, 1, 1, "tr", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.evaluations);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _evaluation_row_evaluation_row_component__WEBPACK_IMPORTED_MODULE_2__["EvaluationRowComponent"]], styles: [".tableFixHead[_ngcontent-%COMP%]          { overflow-y: auto; height: 300px; }\r\n.tableFixHead[_ngcontent-%COMP%]   thead[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] { position: sticky; top: 0; }\r\n\r\ntable[_ngcontent-%COMP%]  { border-collapse: collapse; width: 100%; }\r\nth[_ngcontent-%COMP%], td[_ngcontent-%COMP%] { padding: 8px 16px; }\r\nth[_ngcontent-%COMP%]     { background:#eee; }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV2YWx1YXRpb25zLXRhYmxlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEseUJBQXlCLGdCQUFnQixFQUFFLGFBQWEsRUFBRTtBQUMxRCx5QkFBeUIsZ0JBQWdCLEVBQUUsTUFBTSxFQUFFO0FBRW5ELHFDQUFxQztBQUNyQyxTQUFTLHlCQUF5QixFQUFFLFdBQVcsRUFBRTtBQUNqRCxTQUFTLGlCQUFpQixFQUFFO0FBQzVCLFNBQVMsZUFBZSxFQUFFIiwiZmlsZSI6ImV2YWx1YXRpb25zLXRhYmxlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGFibGVGaXhIZWFkICAgICAgICAgIHsgb3ZlcmZsb3cteTogYXV0bzsgaGVpZ2h0OiAzMDBweDsgfVxyXG4udGFibGVGaXhIZWFkIHRoZWFkIHRoIHsgcG9zaXRpb246IHN0aWNreTsgdG9wOiAwOyB9XHJcblxyXG4vKiBKdXN0IGNvbW1vbiB0YWJsZSBzdHVmZi4gUmVhbGx5LiAqL1xyXG50YWJsZSAgeyBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyB3aWR0aDogMTAwJTsgfVxyXG50aCwgdGQgeyBwYWRkaW5nOiA4cHggMTZweDsgfVxyXG50aCAgICAgeyBiYWNrZ3JvdW5kOiNlZWU7IH1cclxuIl19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _evaluation_row_evaluation_row_component__WEBPACK_IMPORTED_MODULE_2__["EvaluationRowComponent"]], styles: [".tableFixHead[_ngcontent-%COMP%]          { overflow-y: auto; height: 300px; }\r\n.tableFixHead[_ngcontent-%COMP%]   thead[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] { position: sticky; top: 0; }\r\n\r\ntable[_ngcontent-%COMP%]  { border-collapse: collapse; width: 100%; }\r\nth[_ngcontent-%COMP%], td[_ngcontent-%COMP%] { padding: 8px 16px; }\r\nth[_ngcontent-%COMP%]     { background:#eee; }\r\n.responsiveText[_ngcontent-%COMP%]{\r\n  font-size:15px;\r\n}\r\n@media screen and (max-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:3vw;\r\n  }\r\n}\r\n@media screen and (max-width:800px) and (min-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:2vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV2YWx1YXRpb25zLXRhYmxlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEseUJBQXlCLGdCQUFnQixFQUFFLGFBQWEsRUFBRTtBQUMxRCx5QkFBeUIsZ0JBQWdCLEVBQUUsTUFBTSxFQUFFO0FBRW5ELHFDQUFxQztBQUNyQyxTQUFTLHlCQUF5QixFQUFFLFdBQVcsRUFBRTtBQUNqRCxTQUFTLGlCQUFpQixFQUFFO0FBQzVCLFNBQVMsZUFBZSxFQUFFO0FBRTFCO0VBQ0UsY0FBYztBQUNoQjtBQUVBO0VBQ0U7SUFDRSxhQUFhO0VBQ2Y7QUFDRjtBQUVBO0VBQ0U7SUFDRSxhQUFhO0VBQ2Y7QUFDRiIsImZpbGUiOiJldmFsdWF0aW9ucy10YWJsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRhYmxlRml4SGVhZCAgICAgICAgICB7IG92ZXJmbG93LXk6IGF1dG87IGhlaWdodDogMzAwcHg7IH1cclxuLnRhYmxlRml4SGVhZCB0aGVhZCB0aCB7IHBvc2l0aW9uOiBzdGlja3k7IHRvcDogMDsgfVxyXG5cclxuLyogSnVzdCBjb21tb24gdGFibGUgc3R1ZmYuIFJlYWxseS4gKi9cclxudGFibGUgIHsgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsgd2lkdGg6IDEwMCU7IH1cclxudGgsIHRkIHsgcGFkZGluZzogOHB4IDE2cHg7IH1cclxudGggICAgIHsgYmFja2dyb3VuZDojZWVlOyB9XHJcblxyXG4ucmVzcG9uc2l2ZVRleHR7XHJcbiAgZm9udC1zaXplOjE1cHg7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6NTc1cHgpIHtcclxuICAucmVzcG9uc2l2ZVRleHR7XHJcbiAgICBmb250LXNpemU6M3Z3O1xyXG4gIH1cclxufVxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDo4MDBweCkgYW5kIChtaW4td2lkdGg6NTc1cHgpIHtcclxuICAucmVzcG9uc2l2ZVRleHR7XHJcbiAgICBmb250LXNpemU6MnZ3O1xyXG4gIH1cclxufVxyXG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EvaluationsTableComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1385,24 +1388,24 @@ class EvaluationRowComponent {
     }
 }
 EvaluationRowComponent.ɵfac = function EvaluationRowComponent_Factory(t) { return new (t || EvaluationRowComponent)(); };
-EvaluationRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EvaluationRowComponent, selectors: [["tr", "app-evaluation-row", ""]], inputs: { evaluation: "evaluation" }, outputs: { rowSelected: "rowSelected" }, attrs: _c0, decls: 12, vars: 7, consts: [[1, "btn", "btn-outline-dark", "btn-sm", 3, "click"]], template: function EvaluationRowComponent_Template(rf, ctx) { if (rf & 1) {
+EvaluationRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EvaluationRowComponent, selectors: [["tr", "app-evaluation-row", ""]], inputs: { evaluation: "evaluation" }, outputs: { rowSelected: "rowSelected" }, attrs: _c0, decls: 12, vars: 7, consts: [[1, "btn", "btn-outline-dark", "btn-sm", "responsiveText", 3, "click"], [1, "responsiveText"]], template: function EvaluationRowComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function EvaluationRowComponent_Template_a_click_1_listener() { return ctx.onRowSelected(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "td", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](5, "date");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "td", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "td", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "td", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
@@ -1414,7 +1417,7 @@ EvaluationRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.evaluation.value);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.evaluation.notes);
-    } }, pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJldmFsdWF0aW9uLXJvdy5jb21wb25lbnQuY3NzIn0= */"] });
+    } }, pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]], styles: [".responsiveText[_ngcontent-%COMP%]{\r\n  font-size:15px;\r\n}\r\n\r\n@media screen and (max-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:3vw;\r\n  }\r\n}\r\n\r\n@media screen and (max-width:800px) and (min-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:2vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV2YWx1YXRpb24tcm93LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFO0lBQ0UsYUFBYTtFQUNmO0FBQ0Y7O0FBRUE7RUFDRTtJQUNFLGFBQWE7RUFDZjtBQUNGIiwiZmlsZSI6ImV2YWx1YXRpb24tcm93LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLnJlc3BvbnNpdmVUZXh0e1xyXG4gIGZvbnQtc2l6ZToxNXB4O1xyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOjU3NXB4KSB7XHJcbiAgLnJlc3BvbnNpdmVUZXh0e1xyXG4gICAgZm9udC1zaXplOjN2dztcclxuICB9XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6ODAwcHgpIGFuZCAobWluLXdpZHRoOjU3NXB4KSB7XHJcbiAgLnJlc3BvbnNpdmVUZXh0e1xyXG4gICAgZm9udC1zaXplOjJ2dztcclxuICB9XHJcbn1cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EvaluationRowComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2350,7 +2353,7 @@ class ReportRowComponent {
     }
 }
 ReportRowComponent.ɵfac = function ReportRowComponent_Factory(t) { return new (t || ReportRowComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-ReportRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportRowComponent, selectors: [["tr", "app-report-row", ""]], inputs: { report: ["report-data", "report"] }, outputs: { reportSelected: "reportSelected", showReportClick: "showReportClick", exportReportClick: "exportReportClick" }, attrs: _c0, decls: 17, vars: 11, consts: [[1, "btn", "btn-outline-dark", "btn-sm", 3, "click"], [1, "m-0"], [1, "row"], [1, "col", 2, "min-width", "max-content"], [1, "show-graph", "btn-primary", "btn-sm", 3, "click"], [1, "fas", "fa-xs", 3, "icon"], [1, "show-graph", "btn-primary", "btn-sm", "ml-1"], [1, "fas", "fa-xs", 3, "icon", "click"]], template: function ReportRowComponent_Template(rf, ctx) { if (rf & 1) {
+ReportRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReportRowComponent, selectors: [["tr", "app-report-row", ""]], inputs: { report: ["report-data", "report"] }, outputs: { reportSelected: "reportSelected", showReportClick: "showReportClick", exportReportClick: "exportReportClick" }, attrs: _c0, decls: 17, vars: 11, consts: [[1, "btn", "btn-outline-dark", "btn-sm", 3, "click"], [1, "m-0", "responsiveText"], [1, "row"], [1, "col", 2, "min-width", "max-content"], [1, "show-graph", "btn-primary", "btn-sm", 3, "click"], [1, "fas", "fa-xs", 3, "icon"], [1, "show-graph", "btn-primary", "btn-sm", "ml-1"], [1, "fas", "fa-xs", 3, "icon", "click"]], template: function ReportRowComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ReportRowComponent_Template_a_click_1_listener() { return ctx.onShowDetail(); });
@@ -2393,7 +2396,7 @@ ReportRowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.faChartLine);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.faFileDownload);
-    } }, directives: [_fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FaIconComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["DecimalPipe"]], styles: ["p[_ngcontent-%COMP%]{\r\n  font-size: 2vw;\r\n}\r\n\r\n@media screen and (max-width:575px) {\r\n  p[_ngcontent-%COMP%]{\r\n    font-size: 3vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlcG9ydC1yb3cuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRTtJQUNFLGNBQWM7RUFDaEI7QUFDRiIsImZpbGUiOiJyZXBvcnQtcm93LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwe1xyXG4gIGZvbnQtc2l6ZTogMnZ3O1xyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOjU3NXB4KSB7XHJcbiAgcHtcclxuICAgIGZvbnQtc2l6ZTogM3Z3O1xyXG4gIH1cclxufVxyXG5cclxuXHJcbiJdfQ== */"] });
+    } }, directives: [_fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FaIconComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["DecimalPipe"]], styles: [".responsiveText[_ngcontent-%COMP%]{\r\n  font-size:15px;\r\n}\r\n\r\n@media screen and (max-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:3vw;\r\n  }\r\n}\r\n\r\n@media screen and (max-width:800px) and (min-width:575px) {\r\n  .responsiveText[_ngcontent-%COMP%]{\r\n    font-size:2vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlcG9ydC1yb3cuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0U7SUFDRSxhQUFhO0VBQ2Y7QUFDRjs7QUFFQTtFQUNFO0lBQ0UsYUFBYTtFQUNmO0FBQ0YiLCJmaWxlIjoicmVwb3J0LXJvdy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi5yZXNwb25zaXZlVGV4dHtcclxuICBmb250LXNpemU6MTVweDtcclxufVxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDo1NzVweCkge1xyXG4gIC5yZXNwb25zaXZlVGV4dHtcclxuICAgIGZvbnQtc2l6ZTozdnc7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOjgwMHB4KSBhbmQgKG1pbi13aWR0aDo1NzVweCkge1xyXG4gIC5yZXNwb25zaXZlVGV4dHtcclxuICAgIGZvbnQtc2l6ZToydnc7XHJcbiAgfVxyXG59XHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ReportRowComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
